@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    line-height: 106px;
+    
+}
+
+h2{
+    /* font-family: "Roboto Medium Italic"; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    line-height: 84px;
+}
+
+h3{
+    /* font-family: "Roboto Black Italic"; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+h4{
+    /* font-family: "Roboto Black Italic"; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+h5{
+    /* font-family: "Roboto Medium Italic"; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header{
+    height: 958px;
+    background-image:url("img/banner.png");
+    background-size: 100% 100%;
+    color: white;
+}
+
+
+.header .content h4{
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+
+
+.social{
+    display: flex;
+}
+
+.social li{
+    margin: 0 8px;
+}
+
+.content{
+    margin: 56px 0;
+    text-align: center;
+}
+
+.about img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 384px;
+    margin-top: 24px;
+}
+
+.about ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.dot{
+    width: 22px;
+    height: 22px;
+    background: #891818 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+.brand, .contact{
+    background-color: black;
+    color: white;
+}
+
+.brand h5{
+    margin-bottom: 68px;
+}
+
+.brandImgLine1{
+    margin-bottom: 40px;
+}
+
+.brandImgLine2 img{
+    margin: 0 12px;
+}
+
+.brandImgLine2{
+    margin-bottom: 160px;
+}
+
+.works h5{
+    margin-bottom: 56px;
+}
+
+.workLine{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 42px;
+}
+
+
